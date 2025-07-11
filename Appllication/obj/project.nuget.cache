@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "mErLcJwXHCw=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\piriz\\source\\repos\\DesafioMirante\\Appllication\\Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\piriz\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\piriz\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

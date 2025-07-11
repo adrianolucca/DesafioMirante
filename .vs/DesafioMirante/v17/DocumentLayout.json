@@ -1,0 +1,325 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\piriz\\source\\repos\\DesafioMirante\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{39C7DACF-CFC8-4205-95A5-E62B3F5A3471}|DesafioMiranteWeb\\DesafioMiranteWeb.csproj|c:\\users\\piriz\\source\\repos\\desafiomirante\\desafiomiranteweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{39C7DACF-CFC8-4205-95A5-E62B3F5A3471}|DesafioMiranteWeb\\DesafioMiranteWeb.csproj|solutionrelative:desafiomiranteweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39C7DACF-CFC8-4205-95A5-E62B3F5A3471}|DesafioMiranteWeb\\DesafioMiranteWeb.csproj|c:\\users\\piriz\\source\\repos\\desafiomirante\\desafiomiranteweb\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{39C7DACF-CFC8-4205-95A5-E62B3F5A3471}|DesafioMiranteWeb\\DesafioMiranteWeb.csproj|solutionrelative:desafiomiranteweb\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7735FE69-C380-FB21-0041-4D51AA012C57}|DesafioMirante.Tests\\DesafioMirante.Tests.csproj|c:\\users\\piriz\\source\\repos\\desafiomirante\\desafiomirante.tests\\tarefaservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7735FE69-C380-FB21-0041-4D51AA012C57}|DesafioMirante.Tests\\DesafioMirante.Tests.csproj|solutionrelative:desafiomirante.tests\\tarefaservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76675696-5184-4C59-A686-2DBA14E10AED}|Appllication\\Application.csproj|c:\\users\\piriz\\source\\repos\\desafiomirante\\appllication\\services\\tarefaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76675696-5184-4C59-A686-2DBA14E10AED}|Appllication\\Application.csproj|solutionrelative:appllication\\services\\tarefaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76675696-5184-4C59-A686-2DBA14E10AED}|Appllication\\Application.csproj|c:\\users\\piriz\\source\\repos\\desafiomirante\\appllication\\dtos\\tarefadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76675696-5184-4C59-A686-2DBA14E10AED}|Appllication\\Application.csproj|solutionrelative:appllication\\dtos\\tarefadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F12DF5C-F730-4D2C-A58B-ED2FED2719C3}|Domain\\Domain.csproj|c:\\users\\piriz\\source\\repos\\desafiomirante\\domain\\entities\\tarefa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F12DF5C-F730-4D2C-A58B-ED2FED2719C3}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\tarefa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76675696-5184-4C59-A686-2DBA14E10AED}|Appllication\\Application.csproj|c:\\users\\piriz\\source\\repos\\desafiomirante\\appllication\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76675696-5184-4C59-A686-2DBA14E10AED}|Appllication\\Application.csproj|solutionrelative:appllication\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1213EBB3-356A-47F2-87E0-BA74408054D3}|Infrastructure\\Infrastructure.csproj|c:\\users\\piriz\\source\\repos\\desafiomirante\\infrastructure\\repositories\\tarefarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1213EBB3-356A-47F2-87E0-BA74408054D3}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\tarefarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76675696-5184-4C59-A686-2DBA14E10AED}|Appllication\\Application.csproj|c:\\users\\piriz\\source\\repos\\desafiomirante\\appllication\\interfaces\\itarefaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76675696-5184-4C59-A686-2DBA14E10AED}|Appllication\\Application.csproj|solutionrelative:appllication\\interfaces\\itarefaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76675696-5184-4C59-A686-2DBA14E10AED}|Appllication\\Application.csproj|c:\\users\\piriz\\source\\repos\\desafiomirante\\appllication\\dtos\\tarefaresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76675696-5184-4C59-A686-2DBA14E10AED}|Appllication\\Application.csproj|solutionrelative:appllication\\dtos\\tarefaresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76675696-5184-4C59-A686-2DBA14E10AED}|Appllication\\Application.csproj|c:\\users\\piriz\\source\\repos\\desafiomirante\\appllication\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{76675696-5184-4C59-A686-2DBA14E10AED}|Appllication\\Application.csproj|solutionrelative:appllication\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39C7DACF-CFC8-4205-95A5-E62B3F5A3471}|DesafioMiranteWeb\\DesafioMiranteWeb.csproj|c:\\users\\piriz\\source\\repos\\desafiomirante\\desafiomiranteweb\\desafiomiranteweb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{39C7DACF-CFC8-4205-95A5-E62B3F5A3471}|DesafioMiranteWeb\\DesafioMiranteWeb.csproj|solutionrelative:desafiomiranteweb\\desafiomiranteweb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39C7DACF-CFC8-4205-95A5-E62B3F5A3471}|DesafioMiranteWeb\\DesafioMiranteWeb.csproj|c:\\users\\piriz\\source\\repos\\desafiomirante\\desafiomiranteweb\\desafiomiranteweb.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{39C7DACF-CFC8-4205-95A5-E62B3F5A3471}|DesafioMiranteWeb\\DesafioMiranteWeb.csproj|solutionrelative:desafiomiranteweb\\desafiomiranteweb.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39C7DACF-CFC8-4205-95A5-E62B3F5A3471}|DesafioMiranteWeb\\DesafioMiranteWeb.csproj|c:\\users\\piriz\\source\\repos\\desafiomirante\\desafiomiranteweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39C7DACF-CFC8-4205-95A5-E62B3F5A3471}|DesafioMiranteWeb\\DesafioMiranteWeb.csproj|solutionrelative:desafiomiranteweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1213EBB3-356A-47F2-87E0-BA74408054D3}|Infrastructure\\Infrastructure.csproj|c:\\users\\piriz\\source\\repos\\desafiomirante\\infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1213EBB3-356A-47F2-87E0-BA74408054D3}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1213EBB3-356A-47F2-87E0-BA74408054D3}|Infrastructure\\Infrastructure.csproj|c:\\users\\piriz\\source\\repos\\desafiomirante\\infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1213EBB3-356A-47F2-87E0-BA74408054D3}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1213EBB3-356A-47F2-87E0-BA74408054D3}|Infrastructure\\Infrastructure.csproj|c:\\users\\piriz\\source\\repos\\desafiomirante\\infrastructure\\unitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1213EBB3-356A-47F2-87E0-BA74408054D3}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\unitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39C7DACF-CFC8-4205-95A5-E62B3F5A3471}|DesafioMiranteWeb\\DesafioMiranteWeb.csproj|c:\\users\\piriz\\source\\repos\\desafiomirante\\desafiomiranteweb\\controllers\\tarefacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39C7DACF-CFC8-4205-95A5-E62B3F5A3471}|DesafioMiranteWeb\\DesafioMiranteWeb.csproj|solutionrelative:desafiomiranteweb\\controllers\\tarefacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\piriz\\source\\repos\\DesafioMirante\\DesafioMiranteWeb\\Dockerfile",
+              "RelativeDocumentMoniker": "DesafioMiranteWeb\\Dockerfile",
+              "ToolTip": "C:\\Users\\piriz\\source\\repos\\DesafioMirante\\DesafioMiranteWeb\\Dockerfile",
+              "RelativeToolTip": "DesafioMiranteWeb\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-07-11T01:27:35.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\piriz\\source\\repos\\DesafioMirante\\Appllication\\Mappings\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "Appllication\\Mappings\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\piriz\\source\\repos\\DesafioMirante\\Appllication\\Mappings\\MappingProfile.cs",
+              "RelativeToolTip": "Appllication\\Mappings\\MappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T00:39:19.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TarefaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\piriz\\source\\repos\\DesafioMirante\\Infrastructure\\Repositories\\TarefaRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\TarefaRepository.cs",
+              "ToolTip": "C:\\Users\\piriz\\source\\repos\\DesafioMirante\\Infrastructure\\Repositories\\TarefaRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\TarefaRepository.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAWwBQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T00:27:54.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TarefaDto.cs",
+              "DocumentMoniker": "C:\\Users\\piriz\\source\\repos\\DesafioMirante\\Appllication\\DTOs\\TarefaDto.cs",
+              "RelativeDocumentMoniker": "Appllication\\DTOs\\TarefaDto.cs",
+              "ToolTip": "C:\\Users\\piriz\\source\\repos\\DesafioMirante\\Appllication\\DTOs\\TarefaDto.cs",
+              "RelativeToolTip": "Appllication\\DTOs\\TarefaDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAgwAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T00:27:23.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DesafioMiranteWeb.csproj",
+              "DocumentMoniker": "C:\\Users\\piriz\\source\\repos\\DesafioMirante\\DesafioMiranteWeb\\DesafioMiranteWeb.csproj",
+              "RelativeDocumentMoniker": "DesafioMiranteWeb\\DesafioMiranteWeb.csproj",
+              "ToolTip": "C:\\Users\\piriz\\source\\repos\\DesafioMirante\\DesafioMiranteWeb\\DesafioMiranteWeb.csproj",
+              "RelativeToolTip": "DesafioMiranteWeb\\DesafioMiranteWeb.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-11T00:13:23.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DesafioMiranteWeb",
+              "DocumentMoniker": "C:\\Users\\piriz\\source\\repos\\DesafioMirante\\DesafioMiranteWeb\\DesafioMiranteWeb.csproj",
+              "RelativeDocumentMoniker": "DesafioMiranteWeb\\DesafioMiranteWeb.csproj",
+              "ToolTip": "C:\\Users\\piriz\\source\\repos\\DesafioMirante\\DesafioMiranteWeb\\DesafioMiranteWeb.csproj",
+              "RelativeToolTip": "DesafioMiranteWeb\\DesafioMiranteWeb.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-10T23:50:28.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ITarefaService.cs",
+              "DocumentMoniker": "C:\\Users\\piriz\\source\\repos\\DesafioMirante\\Appllication\\Interfaces\\ITarefaService.cs",
+              "RelativeDocumentMoniker": "Appllication\\Interfaces\\ITarefaService.cs",
+              "ToolTip": "C:\\Users\\piriz\\source\\repos\\DesafioMirante\\Appllication\\Interfaces\\ITarefaService.cs",
+              "RelativeToolTip": "Appllication\\Interfaces\\ITarefaService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA+wAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T14:56:08.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\piriz\\source\\repos\\DesafioMirante\\DesafioMiranteWeb\\appsettings.json",
+              "RelativeDocumentMoniker": "DesafioMiranteWeb\\appsettings.json",
+              "ToolTip": "C:\\Users\\piriz\\source\\repos\\DesafioMirante\\DesafioMiranteWeb\\appsettings.json",
+              "RelativeToolTip": "DesafioMiranteWeb\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-10T22:20:39.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TarefaServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\piriz\\source\\repos\\DesafioMirante\\DesafioMirante.Tests\\TarefaServiceTests.cs",
+              "RelativeDocumentMoniker": "DesafioMirante.Tests\\TarefaServiceTests.cs",
+              "ToolTip": "C:\\Users\\piriz\\source\\repos\\DesafioMirante\\DesafioMirante.Tests\\TarefaServiceTests.cs",
+              "RelativeToolTip": "DesafioMirante.Tests\\TarefaServiceTests.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAqwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T01:17:43.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TarefaService.cs",
+              "DocumentMoniker": "C:\\Users\\piriz\\source\\repos\\DesafioMirante\\Appllication\\Services\\TarefaService.cs",
+              "RelativeDocumentMoniker": "Appllication\\Services\\TarefaService.cs",
+              "ToolTip": "C:\\Users\\piriz\\source\\repos\\DesafioMirante\\Appllication\\Services\\TarefaService.cs",
+              "RelativeToolTip": "Appllication\\Services\\TarefaService.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAqwFgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T15:02:15.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Tarefa.cs",
+              "DocumentMoniker": "C:\\Users\\piriz\\source\\repos\\DesafioMirante\\Domain\\Entities\\Tarefa.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Tarefa.cs",
+              "ToolTip": "C:\\Users\\piriz\\source\\repos\\DesafioMirante\\Domain\\Entities\\Tarefa.cs",
+              "RelativeToolTip": "Domain\\Entities\\Tarefa.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T00:27:00.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TarefaResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\piriz\\source\\repos\\DesafioMirante\\Appllication\\DTOs\\TarefaResponseDto.cs",
+              "RelativeDocumentMoniker": "Appllication\\DTOs\\TarefaResponseDto.cs",
+              "ToolTip": "C:\\Users\\piriz\\source\\repos\\DesafioMirante\\Appllication\\DTOs\\TarefaResponseDto.cs",
+              "RelativeToolTip": "Appllication\\DTOs\\TarefaResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T00:32:48.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Application.csproj",
+              "DocumentMoniker": "C:\\Users\\piriz\\source\\repos\\DesafioMirante\\Appllication\\Application.csproj",
+              "RelativeDocumentMoniker": "Appllication\\Application.csproj",
+              "ToolTip": "C:\\Users\\piriz\\source\\repos\\DesafioMirante\\Appllication\\Application.csproj",
+              "RelativeToolTip": "Appllication\\Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-11T00:14:17.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\piriz\\source\\repos\\DesafioMirante\\Infrastructure\\Infrastructure.csproj",
+              "RelativeDocumentMoniker": "Infrastructure\\Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\piriz\\source\\repos\\DesafioMirante\\Infrastructure\\Infrastructure.csproj",
+              "RelativeToolTip": "Infrastructure\\Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-10T22:42:32.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "TarefaController.cs",
+              "DocumentMoniker": "C:\\Users\\piriz\\source\\repos\\DesafioMirante\\DesafioMiranteWeb\\Controllers\\TarefaController.cs",
+              "RelativeDocumentMoniker": "DesafioMiranteWeb\\Controllers\\TarefaController.cs",
+              "ToolTip": "C:\\Users\\piriz\\source\\repos\\DesafioMirante\\DesafioMiranteWeb\\Controllers\\TarefaController.cs",
+              "RelativeToolTip": "DesafioMiranteWeb\\Controllers\\TarefaController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAUwAEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T21:20:18.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\piriz\\source\\repos\\DesafioMirante\\Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\piriz\\source\\repos\\DesafioMirante\\Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T20:31:28.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\piriz\\source\\repos\\DesafioMirante\\Infrastructure\\UnitOfWork\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\UnitOfWork\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\piriz\\source\\repos\\DesafioMirante\\Infrastructure\\UnitOfWork\\UnitOfWork.cs",
+              "RelativeToolTip": "Infrastructure\\UnitOfWork\\UnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T15:11:05.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\piriz\\source\\repos\\DesafioMirante\\DesafioMiranteWeb\\Program.cs",
+              "RelativeDocumentMoniker": "DesafioMiranteWeb\\Program.cs",
+              "ToolTip": "C:\\Users\\piriz\\source\\repos\\DesafioMirante\\DesafioMiranteWeb\\Program.cs",
+              "RelativeToolTip": "DesafioMiranteWeb\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAABOwAQAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T14:43:30.828Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

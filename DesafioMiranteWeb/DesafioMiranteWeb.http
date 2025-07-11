@@ -1,0 +1,6 @@
+@DesafioMiranteWeb_HostAddress = http://localhost:5030
+
+GET {{DesafioMiranteWeb_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
