@@ -1,40 +1,42 @@
 # Configuração AWS ECS - DesafioMirante
 
-## Problema Resolvido
+## ✅ Problemas Resolvidos
 
-O erro "InternalError" estava ocorrendo porque:
+### 1. Erro "InternalError" na Build
+O erro estava ocorrendo porque:
 1. ❌ O buildspec.yml estava tentando fazer build de `./registroContrato` que não existe
 2. ❌ O Dockerfile tinha `USER $APP_UID` que causava problemas no AWS
 3. ❌ O caminho do Dockerfile estava incorreto
 
+**Status:** ✅ **CORRIGIDO**
+
+### 2. Erro de Deploy no ECS
+O deploy falhava porque:
+1. ❌ O nome do container no `imagedefinitions.json` não correspondia à Task Definition
+2. ❌ buildspec.yml usava `"desafio-mirante-web"` mas a Task Definition tinha `"Main"`
+
+**Status:** ✅ **CORRIGIDO**
+
 ## Mudanças Realizadas
 
-### 1. buildspec.yml criado
+### 1. buildspec.yml criado e corrigido
 - ✅ Build correto: `docker build -f DesafioMiranteWeb/Dockerfile .`
 - ✅ Context na raiz do projeto (necessário para copiar todos os projetos)
+- ✅ **Nome do container corrigido para "Main"** no imagedefinitions.json
 - ✅ Geração correta do `imagedefinitions.json`
 
 ### 2. Dockerfile corrigido
 - ✅ Removido `USER $APP_UID` que causava problemas no ECS
 - ✅ Mantida toda a estrutura multi-stage build
 
-## ⚠️ AÇÃO NECESSÁRIA
+## 🎯 Container Name = "Main"
 
-### Você PRECISA verificar o nome do container na Task Definition:
+**IMPORTANTE:** O nome do container está configurado como **"Main"** no buildspec.yml porque esse é o nome definido na Task Definition do ECS.
 
-1. Acesse o console AWS ECS
-2. Vá em **Task Definitions** → sua task definition
-3. Verifique o **nome do container** (provavelmente está como "Main" ou outro nome)
-4. **IMPORTANTE**: Abra o arquivo `buildspec.yml` e altere a linha:
+Se você precisar alterar, certifique-se de que o nome em `buildspec.yml` corresponda EXATAMENTE ao nome na Task Definition:
 
 ```yaml
-- printf '[{"name":"desafio-mirante-web","imageUri":"%s"}]' $REPOSITORY_URI:$IMAGE_TAG > imagedefinitions.json
-```
-
-Substitua `"desafio-mirante-web"` pelo nome EXATO do container na sua Task Definition.
-
-**Exemplo:** Se na Task Definition o container se chama "Main", altere para:
-```yaml
+# Linha 25 do buildspec.yml - já configurada corretamente
 - printf '[{"name":"Main","imageUri":"%s"}]' $REPOSITORY_URI:$IMAGE_TAG > imagedefinitions.json
 ```
 
