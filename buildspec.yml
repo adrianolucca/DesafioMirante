@@ -10,27 +10,16 @@ phases:
   build:
     commands:
       - echo "Iniciando build da imagem Docker..."
-      - echo "Build context na raiz do projeto para incluir todos os projetos necessários"
-      # Build deve ser executado da raiz, pois o Dockerfile copia múltiplos projetos
-      - docker build -t $REPOSITORY_URI:latest -f DesafioMiranteWeb/Dockerfile .
+      - docker build -t $REPOSITORY_URI:latest ./registroContrato
       - docker tag $REPOSITORY_URI:latest $REPOSITORY_URI:$IMAGE_TAG
   post_build:
     commands:
       - echo "Enviando imagens para o ECR..."
       - docker push $REPOSITORY_URI:latest
       - docker push $REPOSITORY_URI:$IMAGE_TAG
-      - echo "Gerando arquivo imageredefinitions.json..."
-      # O nome do container aqui DEVE corresponder ao nome na Task Definition do ECS
-      # Nome configurado como "Main" conforme a Task Definition
-      - printf '[{"name":"Main","imageUri":"%s"}]' $REPOSITORY_URI:$IMAGE_TAG > imageredefinitions.json
-      - echo "Conteúdo do arquivo imageredefinitions.json:"
-      - cat imageredefinitions.json
-      - echo "Verificando se o arquivo foi criado:"
-      - ls -la imageredefinitions.json
-      - echo "Listando todos os arquivos no diretório atual:"
-      - ls -la
-      - echo "Diretório de trabalho atual:"
-      - pwd
+      - echo "Gerando arquivo imagedefinitions.json na raiz..."
+      - printf '[{"name":"Main","imageUri":"%s"}]' $REPOSITORY_URI:$IMAGE_TAG > imagedefinitions.json
+      - cat imagedefinitions.json
 artifacts:
   files:
-    - imageredefinitions.json
+    - imagedefinitions.json
