@@ -19,18 +19,18 @@ phases:
       - echo "Enviando imagens para o ECR..."
       - docker push $REPOSITORY_URI:latest
       - docker push $REPOSITORY_URI:$IMAGE_TAG
-      - echo "Gerando arquivo imagedefinitions.json..."
+      - echo "Gerando arquivo imageredefinitions.json..."
       # O nome do container aqui DEVE corresponder ao nome na Task Definition do ECS
       # Nome configurado como "Main" conforme a Task Definition
-      - printf '[{"name":"Main","imageUri":"%s"}]' $REPOSITORY_URI:$IMAGE_TAG > imagedefinitions.json
-      - echo "Conteúdo do arquivo imagedefinitions.json:"
-      - cat imagedefinitions.json
+      - printf '[{"name":"Main","imageUri":"%s"}]' $REPOSITORY_URI:$IMAGE_TAG > imageredefinitions.json
+      - echo "Conteúdo do arquivo imageredefinitions.json:"
+      - cat imageredefinitions.json
       - echo "Verificando se o arquivo foi criado:"
-      - ls -la imagedefinitions.json
+      - ls -la imageredefinitions.json
       - echo "Listando todos os arquivos no diretório atual:"
       - ls -la
       - echo "Diretório de trabalho atual:"
       - pwd
 artifacts:
   files:
-    - imagedefinitions.json
+    - imageredefinitions.json
