@@ -21,8 +21,8 @@ phases:
       - docker push $REPOSITORY_URI:$IMAGE_TAG
       - echo "Gerando arquivo imagedefinitions.json..."
       # O nome do container aqui DEVE corresponder ao nome na Task Definition do ECS
-      # Altere "desafio-mirante-web" para o nome correto do seu container na Task Definition
-      - printf '[{"name":"desafio-mirante-web","imageUri":"%s"}]' $REPOSITORY_URI:$IMAGE_TAG > imagedefinitions.json
+      # Nome configurado como "Main" conforme a Task Definition
+      - printf '[{"name":"Main","imageUri":"%s"}]' $REPOSITORY_URI:$IMAGE_TAG > imagedefinitions.json
       - cat imagedefinitions.json
 artifacts:
   files:
